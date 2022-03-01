@@ -1,0 +1,22 @@
+.products h2 {
+    color: white;
+    margin: 2rem auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.products ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, fit-content(100%));
+    grid-gap: 1rem;
+    /* align-items: center; */
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .products ul {
+        grid-template-columns: repeat(1, fit-content(100%));
+    }
+}
