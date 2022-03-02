@@ -19,7 +19,7 @@
     border-radius: 30px;
     padding: 0.15rem 1.25rem;
     color: #1d1d1d;
-    padding-left: auto;
+    /* padding-left: auto; */
 }
 @media (max-width: 768px) {
     .button {
